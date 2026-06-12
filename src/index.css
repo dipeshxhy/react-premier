@@ -3,6 +3,12 @@
 @utility box {
   @apply container max-w-7xl mx-auto px-4;
 }
+@utility border-t-b{
+  @apply  border-t-[2px] border-b-[2px]
+}
+.elem{
+@apply size-10 bg-red-300
+}
 /* logo */
 .logo::after {
   content: '©';
