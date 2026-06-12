@@ -1,3 +1,4 @@
+import Footer from './components/Footer';
 import Main from './components/Main';
 import Nav from './components/Nav';
 
@@ -6,6 +7,7 @@ const App = () => {
     <div className="bg-[#F8F8F8]  py-8 min-h-screen text-stone-800">
       <Nav />
       <Main/>
+      <Footer/>
     </div>
   );
 };
