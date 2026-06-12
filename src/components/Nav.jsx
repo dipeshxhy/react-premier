@@ -1,6 +1,6 @@
 const Nav = () => {
   return (
-    <div className="mt-8 border-t-[2px] border-b-[2px] ">
+    <div className=" border-t-[2px] border-b-[2px] ">
       <nav className="box  flex items-center  h-20">
         <div className="text-3xl font-black flex items-center  md:w-[30vw] w-full justify-center  h-full relative md:justify-start border-r-2 md:border-r-0">
           <h2 className="logo ">premier</h2>
