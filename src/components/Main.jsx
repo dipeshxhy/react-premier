@@ -1,6 +1,7 @@
 import Alphabets from './Alphabets';
 import Gallery from './Gallery';
 import ImageMarque from './ImageMarque';
+import Update from './Update';
 import Video from './Video';
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
       <ImageMarque/>
       <Alphabets/>
       <Gallery/>
+      <Update/>
     </main>
   );
 };
