@@ -74,3 +74,18 @@
     transform: translateX(calc(-100% - 24px));
   }
 }
+
+/* marquee text */
+.marquee-text {
+  animation: scroll-text 4s linear infinite;
+  
+}
+@keyframes scroll-text {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 24px));
+  }
+}
