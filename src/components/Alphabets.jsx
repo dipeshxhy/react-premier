@@ -4,7 +4,7 @@ const renderAlphabets = ()=>{
     <>
     {
       ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','x','y','z'].map((a,i)=>(
-        <li key={i} className=" md:h-10 md:w-10 flex items-center justify-center rounded-full md:border-0 hover:border-2 duration-300 transition-all cursor-pointer uppercase text-xs  ">{a}</li>
+        <li key={i} className=" md:h-10 md:w-10 flex items-center justify-center rounded-full md:border-0 hover:border-2 duration-300 transition-all cursor-pointer uppercase text-xs md:text-lg ">{a}</li>
       ))
     }
     </>
