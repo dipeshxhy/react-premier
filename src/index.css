@@ -30,3 +30,18 @@
     right: 30%;
   }
 }
+.marquee {
+  animation: scroll 5s linear infinite;
+}
+
+
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-100% - 24px));
+  }
+}
